@@ -1,0 +1,5 @@
+1.
+
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: It Initialized and empty Git repository. It is needed so we can initiate a version control 
