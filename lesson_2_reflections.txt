@@ -1,5 +1,26 @@
+Newer versions of git do not say "Initial commit" it now says "No commits yet"
+
 1.
 
 Q: What happens when you initialize a repository? Why do you need to do it?
 
-A: It Initialized and empty Git repository. It is needed so we can initiate a version control 
+A: It Initialized and empty Git repository. It is needed so we can initiate a version 
+control for our reflections. 
+
+2.
+
+Q: How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+A: Repository is the full "folder" of files in the git repo that was initiated/created. 
+The Working Directory is where the repository or current commit that is "checked out" is 
+being worked on. Staging Area is a place inbetween like a "limbo" before you "commit" to 
+changes to commit/working directory you are making changes to inside the repository. 
+
+The staging area allows you to group files to one commit and also decide if the files
+are the correct files before you "commit" to the changing the commit currently being 
+worked on.
+
+3.
+
+Q:
