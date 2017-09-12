@@ -4,3 +4,11 @@ Q: When would you want to use a remote repository rather than keeping all your w
 
 A: You should probably use a remote repository if you are on a work computer or some other
 computer that is not your own. 
+
+2.
+
+Q: Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+A: Pulling manually brings changes into your current local repository almost like a merge.
+If Git stayed up-to-date with remote then changes from local not pushed yet would be lost.
