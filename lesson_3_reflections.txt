@@ -12,3 +12,42 @@ stay up-to-date with your remote repository?
 
 A: Pulling manually brings changes into your current local repository almost like a merge.
 If Git stayed up-to-date with remote then changes from local not pushed yet would be lost.
+
+3.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+
+A: 
+
+"Forks" pertain to a repository on GitHub that you do not have rights to. Forking allows
+anyone to pull a copy of a repository to their GitHub account to modify without repercussions
+or hindering the other original repository from the owner. Forks can be used when a person 
+wants to collaborate with the open source repository or when they want to modify it to make
+a version of their own. 
+
+"Clones" pertain to making a exact current copy of a local or remote repository. Clones
+can be used same way as forks, but, instead of the way forks work, they are local or from
+a repository you have access to remotely or local. Also, it would be good to use clones to 
+make a copy of a repository to either backup or to use for an experiment to keep original 
+clean of too many branches or commits. This clone is a completely different/new repository
+from the original.
+
+"Branches" pertain to a "side project" or "off-shoot" of a repository local or remote. A branch
+is an exact copy of the master repository with new commits that follow only that the new route
+or "branch" that is made. It is kept track of through git commits and will not be part of the 
+"master" branch until merged. This allows for changes to be experimented with the original "master" branch without breaking the "master" branch. Branches can be used locally to change
+certain things in the repository before committing them. Upon merging the master to the new 
+branch, the old branch becomes one with the master and continues on. 
+
+In summary, a fork is a clone/branch/copy from a repository on GitHub that is not yours and
+is brought to your GitHub as a new repository to be modified. A clone is a exact copy of a
+repository that you have on GitHub(remote) or local that can stay on GitHub or brought 
+locally then modified but still becomes a new repository where it is stored. A branch is 
+a copy of the current repository's branch/commit being worked in that can be modified within 
+the repository but does not become a new repository.
+
+4.
+
+Q:  
+
