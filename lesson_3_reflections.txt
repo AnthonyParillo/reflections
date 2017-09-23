@@ -49,5 +49,10 @@ the repository but does not become a new repository.
 
 4.
 
-Q:  
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A: Having a copy of the last known state of the remote stored locally allows one to know
+where they left off without clutter from other changes that have been made to the remote
+already. Also, this will allow for ease of merging and to know what to keep or get rid of
+before the merge is committed compared to the local or ones work. 
 
