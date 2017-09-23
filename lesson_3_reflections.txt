@@ -56,3 +56,21 @@ where they left off without clutter from other changes that have been made to th
 already. Also, this will allow for ease of merging and to know what to keep or get rid of
 before the merge is committed compared to the local or ones work. 
 
+5.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: There are many alternates to Git and GitHub(just saying......)..... but I know that is 
+not what is being asked and for the real answer....
+Collaboration without Git or GitHub would be very difficult. If there was not a form of
+version control used it would be difficut to keep up with who was doing what and what has 
+been changed or implemented.  Bugs and breaks in the code would be rampant and trying to 
+fix one file would take a very long time to go line-by-line. Going to one collaborator to 
+the next trying to find out what they did would get aggravating without good management.
+This could be done if you had code and close nit group/team where each person was only to
+work on a certain amount of lines. At the end of a given period, someone would have to 
+review and piece together everything and determine which changes should be implicated or
+not into the end product. Very small changes could be done without version control, but 
+large changes would be more difficult. Version control helps to contain and prevent
+breaks in the master code.
+
