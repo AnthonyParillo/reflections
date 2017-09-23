@@ -36,7 +36,8 @@ from the original.
 "Branches" pertain to a "side project" or "off-shoot" of a repository local or remote. A branch
 is an exact copy of the master repository with new commits that follow only that the new route
 or "branch" that is made. It is kept track of through git commits and will not be part of the 
-"master" branch until merged. This allows for changes to be experimented with the original "master" branch without breaking the "master" branch. Branches can be used locally to change
+"master" branch until merged. This allows for changes to be experimented with the original
+"master" branch without breaking the "master" branch. Branches can be used locally to change
 certain things in the repository before committing them. Upon merging the master to the new 
 branch, the old branch becomes one with the master and continues on. 
 
@@ -58,7 +59,8 @@ before the merge is committed compared to the local or ones work.
 
 5.
 
-Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Q: How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
 
 A: There are many alternates to Git and GitHub(just saying......)..... but I know that is 
 not what is being asked and for the real answer....
@@ -73,4 +75,16 @@ review and piece together everything and determine which changes should be impli
 not into the end product. Very small changes could be done without version control, but 
 large changes would be more difficult. Version control helps to contain and prevent
 breaks in the master code.
+
+6.
+
+Q: When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+
+A: Making changes in a seperate branch is best when you do not want to break or mess with
+the master branch. i.e. experiments or just playing around with the code. It is always a good
+idea to make a branch and leave the master alone until it is guaranteed whatever was changed
+should be implemented into the final product. Master should be used to make small changes to
+things that absolutely will not affect the final product. This keeps things clean without too
+many commits.
 
